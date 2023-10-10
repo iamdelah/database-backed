@@ -26,13 +26,12 @@
 
         <div class="container">
 
-            {% if error %}
-    <div class="alert alert-warning" role="alert">
-        Incorrect username or password
-    </div>
-            {% endif %}
-
             <div class="row">
+                {% if error %}
+                    <div class="alert alert-warning" role="alert">
+                        Incorrect username or password
+                    </div>
+                {% endif %}
                 <form action="." method="POST">
                   <div class="form-group">
                     <label for="username">Username:</label>
