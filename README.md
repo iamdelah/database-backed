@@ -1,4 +1,4 @@
-# database-backed logins 
+a simple website – just a page where anyone can leave a comment, with the comments stored in a database so that they last forever. 
 
 username: admin |
 password: new-secret
