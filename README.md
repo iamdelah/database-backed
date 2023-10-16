@@ -1,9 +1,9 @@
 # database-backed logins 
 
-username: admin
+username: admin |
 password: new-secret
 
 or
 
-username: bob
+username: bob |
 password: super-secret
